@@ -1,6 +1,12 @@
  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
  .color {
      background: #00587a;
+     font-family: 'Oswald', sans-serif;
+     font-weight: bold;
+ }
+
+ .sobremi {
+     font-family: 'Oswald', sans-serif;
  }
 
  header {
@@ -19,3 +25,5 @@
  .comenzar {
      font-weight: bold;
  }
+
+ img {}
