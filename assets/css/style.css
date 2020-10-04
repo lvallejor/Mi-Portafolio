@@ -5,6 +5,10 @@
      font-weight: bold;
  }
 
+ .imagenes {
+     width: 25%;
+ }
+
  body {
      font-family: 'Oswald', sans-serif;
  }
