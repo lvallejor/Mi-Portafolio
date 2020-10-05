@@ -9,12 +9,24 @@
      width: 25%;
  }
 
+ .sombra {
+     text-shadow: 0.100em 0.15em 0.100em #707070
+ }
+
+ hr {
+     margin-top: 5px;
+     margin-bottom: 5px;
+     height: 1px;
+     width: 100%;
+     border-top: 2px solid #00587a;
+ }
+
  body {
      font-family: 'Oswald', sans-serif;
  }
 
  header {
-     background-image: url('../img/DAVI3.jpg');
+     background-image: url('../img/david_nieve.jpg');
      background-repeat: no-repeat;
      background-size: cover;
      background-position: left;

@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+    <link rel="shortcut icon" href="assets/img/images.png" type="image/x-icon">
+    <meta name="description" content="Portafolio de Luis Vallejo desarrollador JavaScript">
+    <meta name="keywords" content="frontend, backend, javascript, html, css, reactjs, nodejs, fullstack">
+    <title>VallejoDev</title>
+
 
     <!--CSS de Bootstrap 4.2.1-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -52,12 +56,10 @@
     </nav>
 
     <!-- Aqui va el header -->
-    <header class="hero text-light text-right pt-5 mt-5" id="sobremi">
+    <header class="hero text-light text-center pt-5 mt-5" id="sobremi">
         <div class="container">
-            <h4 class="display-1 font-weight-bold my-5">Luis Vallejo</h4>
-            <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                ut
-                labore et dolore magna aliqua.</p>
+            <h4 class="display-1 font-weight-bold pt-4 my-5 sombra">Luis Vallejo</h4>
+            <h4 class="my-5 sombra">Desarrollador FullStack JavaScript</h4>
 
         </div>
     </header>
@@ -67,39 +69,30 @@
     <section>
         <section id="about" class="container text-center my-5 sobremi d-none d-lg-block d-print-block">
             <h2 class="display-3 font-weight-bold my-4">Sobre mí</h2>
-
+            <hr>
 
             <div class="row">
                 <div class="col-md-6">
-
-
-                    <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt
-                        ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi
-                        ut
-                        aliquip ex ea commodo consequat.</p>
+                    <p class="my-3"> Mi nombre es Luis Vallejo, soy Informatico, Administrador y Desarrollador FullStack
+                        JavScript en constante aprendizaje, con mas de 2 años en el desarrollo, proactivo, eficiente y
+                        comunicativo, mis
+                        skills estan basados en el MERN Stack, Mongo DB, Express, ReactJS y NodeJS.
+                    </p>
                 </div>
                 <div class="col-md-6">
-
-
-                    <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt
-                        ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi
-                        ut
-                        aliquip ex ea commodo consequat.</p>
+                    <p class="my-3">Mis principales trabajos han sido desarrollos colaborativos junto a otros
+                        desarrolladores, basando el mayor tiempo de trabajo en ReactJS. La creacion de nuevas soluciones
+                        a problemas cotidianos de la gente, y el desarrollo enfocado en areas nuevas es lo que mas me
+                        llama la atencion del software</p>
                 </div>
-
             </div>
         </section>
     </section>
 
-    <!-- aqui va la experiencia lo cambie por Skills-->
+    <!-- Aqui va la experiencia que cambie por Skills-->
     <section id="skills" class="col-10 col-md-8 container pt-4">
         <h1 class="text-center font-weight-bold">Skills</h1>
+        <hr class="pb-4">
         <div id="carouselExampleIndicators" class="carousel slide bg-dark" data-ride="carousel">
 
             <ol class="carousel-indicators">
@@ -110,19 +103,19 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active ">
+                <div class="carousel-item active" data-toggle="tooltip" data-placement="left" title="HTML5">
                     <img src="assets/img/html5-1841458_640.png" class="d-block w-100 imagenes" alt="html">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-toggle="tooltip" data-placement="left" title="CSS3">
                     <img src="assets/img/css3-1841590_1920.png" class="d-block w-100" alt="css">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-toggle="tooltip" data-placement="left" title="JavaScript">
                     <img src="assets/img/javascript.png" class="d-block w-100" alt="javascript">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-toggle="tooltip" data-placement="left" title="ReactJS">
                     <img src="assets/img/react.png" class="d-block w-100" alt="react">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-toggle="tooltip" data-placement="left" title="NodeJS">
                     <img src="assets/img/node-js.png" class="d-block w-100" alt="node">
                 </div>
             </div>
@@ -140,6 +133,7 @@
     <!-- Aqui van los ultimos trabajos -->
     <section id="trabajos" class=" col-12 container-fluid my-4 p-4 bg-info" id="work">
         <h2 class="display-4 text-center font-weight-bold text-light mb-3 px-4">MIS TRABAJOS</h2>
+        <hr class="pb-4">
         <div class="card-deck">
             <div class="card">
                 <img class="card-img-top" src="assets/img/meet&cofee.PNG" alt="Card image cap">
@@ -306,6 +300,44 @@
         </div>
     </div>
 
+    <div class="modal fade" id="salmones" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Breaking Bad</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid mb-3" src="assets/img/Breakingbad.PNG" alt="Card image cap">
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex
+                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore
+                        eu fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt
+                        mollit
+                        anim id est laborum.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                    </p>
+                    <p><a href="https://hopeful-montalcini-8ff58e.netlify.app/">Ver proyecto online</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="modal fade" id="criptomonedas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -335,15 +367,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore
                         et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore
-                        eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt
-                        mollit
-                        anim id est laborum.</p>
+                    </p>
+                    <p><a href="https://blissful-wiles-0b46ab.netlify.app/">Ver el proyecto online</a></p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -381,15 +406,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore
                         et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore
-                        eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt
-                        mollit
-                        anim id est laborum.</p>
+                    </p>
+                    <p><a href="https://optimistic-knuth-3cbbf5.netlify.app/">Ver proyecto online</a></p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -427,15 +445,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                         labore
                         et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore
-                        eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt
-                        mollit
-                        anim id est laborum.</p>
+                    </p>
+                    <p><a href="https://eager-swartz-d37dd7.netlify.app/">Ver proyecto online</a></p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -443,53 +454,6 @@
             </div>
         </div>
     </div>
-
-    <div class="modal fade" id="salmones" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Breaking Bad</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img class="img-fluid mb-3" src="assets/img/Breakingbad.PNG" alt="Card image cap">
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore
-                        eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt
-                        mollit
-                        anim id est laborum.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore
-                        eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt
-                        mollit
-                        anim id est laborum.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <!-- Aqui va el typeform -->
     <section id="contacto" class="text-center p-5">
@@ -506,18 +470,10 @@
     </section>
 
     <!-- Aqui va el footer -->
-
-
     <footer class=" text-light color p-2">
-
         <div class="row">
             <div class="col-12 col-md-4 pt-3 text-center">
-
-
                 <h2>VallejoDev</h2>
-
-
-
             </div>
 
             <div class="container">
@@ -544,11 +500,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-
-        </div>
-
         </div>
 
     </footer>
