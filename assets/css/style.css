@@ -9,6 +9,10 @@
      width: 25%;
  }
 
+ .navsize {
+     font-weight: bold;
+ }
+
  .sombra {
      text-shadow: 0.100em 0.15em 0.100em #707070
  }
@@ -34,8 +38,14 @@
  }
 
  footer {
+     background-color: #00587a;
+     margin-top: 6em;
      font-family: 'Oswald', sans-serif;
-     font-weight: bold;
+     font-weight: 500;
+     color: #fff;
+     text-align: center;
+     font-size: 40px;
+     padding: 5% 10% 2% 15%;
  }
 
  .comenzar {
