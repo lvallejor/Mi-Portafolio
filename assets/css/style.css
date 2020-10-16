@@ -5,6 +5,10 @@
      font-weight: bold;
  }
 
+ body {
+     overflow-x: hidden;
+ }
+
  .imagenes {
      width: 25%;
  }
